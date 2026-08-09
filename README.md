@@ -42,3 +42,13 @@ AETERNVMVACUVM/
 │   ├── vainshtein_screening.py # Local screening functions
 │   └── mcmc_pipeline.py        # Cobaya/EFTCAMB wrapper & GP emulators
 └── data/                       # Pre-computed MCMC chains and void residuals
+
+---
+
+## ☕ Apoie a Pesquisa / Support
+
+Se você deseja apoiar o desenvolvimento e a manutenção deste framework e das pesquisas:
+
+* **PIX (CPF):** `022.818.517-37`
+* **PIX (Celular):** `27 99817 4350`
+* **DOI Zenodo:** [10.5281/zenodo.21398974](https://doi.org/10.5281/zenodo.21398974)
