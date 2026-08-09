@@ -52,3 +52,27 @@ Se você deseja apoiar o desenvolvimento e a manutenção deste framework e das 
 * **PIX (CPF):** `022.818.517-37`
 * **PIX (Celular):** `27 99817 4350`
 * **DOI Zenodo:** [10.5281/zenodo.21398974](https://doi.org/10.5281/zenodo.21398974)
+## Teoria e Formulação da Likelihood
+
+A função de verificação da *Likelihood* Gaussiana para a análise cosmológica é dada por:
+
+$$\mathcal{L}(\theta) = -\frac{1}{2} \left[ \mathbf{d}^T \mathbf{C}^{-1} \mathbf{d} + \log |\mathbf{C}| + N \log(2\pi) \right]$$
+
+Onde $\mathbf{d} = \mathbf{y}_{\text{data}} - \mathbf{y}_{\text{model}}(\theta)$ é o vetor de resíduos.
+
+### Otimização para MCMC (Decomposição de Cholesky)
+
+Para acelerar a amostragem MCMC quando a matriz de covariância dos dados $\mathbf{C}$ não varia a cada iteração, utilizamos a fatoração de Cholesky $\mathbf{C} = \mathbf{L}\mathbf{L}^T$, onde $\mathbf{L}$ é uma matriz triangular inferior.
+
+1. **Sistemas Triangulares ($O(N^2)$):** O termo quadrático $\mathbf{d}^T \mathbf{C}^{-1} \mathbf{d}$ é resolvido em duas etapas eficientes:
+   $$\mathbf{L}\mathbf{y} = \mathbf{d} \quad \implies \quad \mathbf{L}^T \mathbf{x} = \mathbf{y}$$
+2. **Determinante Eficiente:** O log-determinante é reduzido à soma dos elementos da diagonal:
+   $$\log |\mathbf{C}| = 2 \sum_{i=1}^{N} \log(L_{ii})$$
+
+### Ramo PCA / Woodbury Lemma
+
+Quando a incerteza do emulador é de baixa dimensão ($\mathbf{C}_{\text{emu}} = \mathbf{U}\mathbf{S}\mathbf{U}^T$), aplicamos o *Matrix Inversion Lemma* (Identidade de Woodbury) e o *Matrix Determinant Lemma*:
+
+$$(\mathbf{A} + \mathbf{U}\mathbf{S}\mathbf{U}^T)^{-1} = \mathbf{A}^{-1} - \mathbf{A}^{-1}\mathbf{U}(\mathbf{S}^{-1} + \mathbf{U}^T\mathbf{A}^{-1}\mathbf{U})^{-1}\mathbf{U}^T\mathbf{A}^{-1}$$
+
+$$\log|\mathbf{A} + \mathbf{U}\mathbf{S}\mathbf{U}^T| = \log|\mathbf{S}^{-1} + \mathbf{U}^T \mathbf{A}^{-1} \mathbf{U}| + \log|\mathbf{S}| + \log|\mathbf{A}|$$
