@@ -2,9 +2,13 @@
 
 **Open-Source Computational Framework for Late-Time Vacuum Phase Transitions, Vainshtein Screening, and Cosmological MCMC Emulators.**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21856036.svg)](https://doi.org/10.5281/zenodo.21856036)
-[![DOI v1.1.0-completo](https://zenodo.org/badge/DOI/10.5281/zenodo.22166663.svg)](https://doi.org/10.5281/zenodo.22166663)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21856036.svg)](https://doi.org/10.5281/zenodo.21856036)
+[[DOI v1.1.0-completo](https://zenodo.org/badge/DOI/10.5281/zenodo.22166663.svg)](https://doi.org/10.5281/zenodo.22166663)
+[[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+### ☕ APOIE A PESQUISA - PIX
+**PIX (CPF): 022.818.517-37**
+**PIX (Celular): 27 99817 4350**
 
 ### CADEIA COMPLETA AETERNVM VACVVM - 4 DOIs ATIVOS ✅
 
@@ -14,32 +18,31 @@
 **DOI 4 - Framework Completo:** [10.5281/zenodo.22166663](https://doi.org/10.5281/zenodo.22166663) (v1.1.0-completo - REPOSITÓRIO CORRIGIDO COM papel.bib, papel.md, pyproject.toml, setup.py)
 **DOI Pai (todas as versões):** [10.5281/zenodo.21856036](https://doi.org/10.5281/zenodo.21856036)
 
-## Overview
+## Visão geral
 
-`AETERNVMVACUVM` is an open-source physics engine and cosmological emulation toolkit designed to test non-minimal coupling scalar-tensor field theories, Vainshtein screening mechanisms, and late-time vacuum phase transitions ($z \in [0.2, 0.8]$) against precision cosmological observations.
+AETERNVMVACUVM é um motor de física de código aberto e um conjunto de ferramentas de emulação cosmológica projetado para testar teorias de campos escalares-tensoriais de acoplamento não mínimo, mecanismos de blindagem de Vainshtein e transições de fase do vácuo em tempos tardios (z ∈ [0.2, 0.8]) contra observações cosmológicas de precisão.
 
-It directly integrates hyperbolic system solvers with Bayesian inference pipelines using **EFTCAMB**, **Cobaya**, and Gaussian Process (GP) emulators.
-
----
-
-## Key Modules & Theoretical Architecture
-
-### 1. Vacuum Dynamics & Non-Minimal Coupling
-Solves the hyperbolic field equation with non-minimal curvature coupling:
-$$\Box\phi + \frac{dV}{d\phi} - 2\xi R\phi = 0$$
-using high-precision adaptive ODE/PDE integrators (`LSODA` / `DOP853`) with tolerances down to `rtol = 1e-10`.
-
-### 2. Vainshtein Screening Mechanism
-Calculates effective gravitational suppression within Solar System and local astrophysical scales to satisfy stringent local gravity bounds while allowing cosmological deviations.
-
-### 3. Cosmological MCMC & Inference Pipeline
-* **Datasets:** Integrated support for Planck CMB, DESI Y1/Y3, Pantheon+, and BAO data.
-* **Bayesian Emulator:** Gaussian Process emulators acceleration for $w(z)$ equation-of-state reconstructions ($w_0 = -0.712$).
-* **Hubble Tension & Large Scale Structure:** Predicts late-time transition resolving $H_0$ tension and 3–5% $f\sigma_8$ suppression in cosmic voids.
+Ele integra diretamente solucionadores de sistemas hiperbólicos com pipelines de inferência Bayesiana usando emuladores EFTCAMB, Cobaya e de Processos Gaussianos (GP).
 
 ---
 
-## Repository Structure
+## Módulos-chave e arquitetura teórica
+
+### 1. Dinâmica do Vácuo e Acoplamento Não Mínimo
+Resolve a equação do campo hiperbólico com acoplamento de curvatura não mínima:
+□φ + dV/dφ - 2ξRφ = 0 usando integradores ODE/PDE adaptativos de alta precisão (LSODA / DOP853) com tolerâncias até rtol = 1e-10.
+
+### 2. Mecanismo de triagem de Vainshtein
+Calcula a supressão gravitacional efetiva dentro do Sistema Solar e em escalas astrofísicas locais para satisfazer limites rigorosos de gravidade local, permitindo ao mesmo tempo desvios cosmológicos.
+
+### 3. Pipeline Cosmológico de MCMC e Inferência
+* **Conjuntos de dados:** Suporte integrado para dados Planck CMB, DESI Y1/Y3, Pantheon+ e BAO.
+* **Emulador Bayesiano:** Aceleração de emuladores de Processos Gaussianos para reconstruções de equação de estado w(z) (w0 = -0,712).
+* **Tensão de Hubble e estrutura em grande escala:** prevê transições tardias com resolução da tensão H0 e 3-5% fσ8 supressão em vazios cósmicos.
+
+---
+
+## Estrutura do Repositório
 
 ```text
 AETERNVMVACUVM/
