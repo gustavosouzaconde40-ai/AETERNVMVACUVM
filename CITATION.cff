@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: "AETERNVMVACUVM: A Computational Framework for Vacuum Depletion Physics, Vainshtein Screening, and Cosmological MCMC Emulators"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Condé"
+    given-names: "Gustavo Alves"
+    affiliation: "Independent Researcher, Baixo Guandu, ES, Brazil"
+version: "1.1.0"
+date-released: "2026-08-29"
+doi: 10.5281/zenodo.22166663
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21856036
+    description: "Concept DOI - all versions"
+  - type: doi
+    value: 10.5281/zenodo.22166663
+    description: "Version v1.1.0-complete"
+  - type: doi
+    value: 10.5281/zenodo.22096687
+    description: "Conde Ruler"
+  - type: doi
+    value: 10.5281/zenodo.22164502
+    description: "Triangulo de Conde"
+  - type: doi
+    value: 10.5281/zenodo.22165628
+    description: "VIEC Mk.IV-C backup"
+  - type: doi
+    value: 10.5281/zenodo.22165507
+    description: "VIEC Mk.IV-C Zbites"
+url: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
+repository-code: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
+license: MIT
+keywords:
+  - vacuum depletion
+  - Vainshtein screening
+  - cosmological emulators
+  - MCMC
+  - DESI
+  - Planck
+  - scalar-tensor theories
+  - late-time phase transitions
+  - EFTCAMB
+  - Cobaya
+
