@@ -1,12 +1,16 @@
+# Testes unitários para o likelihood - atualizado para usar o pacote interno
 import numpy as np
 from scipy.linalg import cholesky
 import pytest
-from probabilidade.likelihood_emulator import compute_log_likelihood
+
+from likelihood.likelihood_emulator import compute_log_likelihood
+
 
 def _make_spd_matrix(n, seed=42):
     rng = np.random.default_rng(seed)
     A = rng.normal(size=(n, n))
     return A @ A.T + n * np.eye(n)
+
 
 def test_loglike_precomputed_cholesky_matches_direct():
     n = 10
@@ -21,6 +25,7 @@ def test_loglike_precomputed_cholesky_matches_direct():
     
     assert np.isclose(ll_direct, ll_precomp, atol=1e-10)
 
+
 def test_loglike_precomputed_cinv_matches_direct():
     n = 10
     C = _make_spd_matrix(n, seed=2)
@@ -34,6 +39,7 @@ def test_loglike_precomputed_cinv_matches_direct():
     ll_precomp = compute_log_likelihood(data, model, C_data_precomputed={'Cinv': Cinv, 'logdet': logdet})
     
     assert np.isclose(ll_direct, ll_precomp, atol=1e-10)
+
 
 def test_invalid_precomputed_dict_raises_error():
     data = np.ones(5)
