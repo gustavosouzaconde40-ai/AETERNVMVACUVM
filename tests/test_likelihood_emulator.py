@@ -1,5 +1,6 @@
 import numpy as np
 import pytest
+from scipy.linalg import cholesky
 
 from likelihood.likelihood_emulator import (
     window_stitching,
@@ -107,10 +108,12 @@ def test_full_covariance_and_error_handling():
         _ = compute_log_likelihood(d, P_model, np.zeros((N-1, N-1)), sigma_bad, P_LCDM)
         
 
+
 def _make_spd_matrix(n, seed=42):
     rng = np.random.default_rng(seed)
     A = rng.normal(size=(n, n))
     return A @ A.T + n * np.eye(n)
+
 
 def test_loglike_precomputed_cholesky_matches_direct():
     n = 10
@@ -125,6 +128,7 @@ def test_loglike_precomputed_cholesky_matches_direct():
     
     assert np.isclose(ll_direct, ll_precomp, atol=1e-10)
 
+
 def test_loglike_precomputed_cinv_matches_direct():
     n = 10
     C = _make_spd_matrix(n, seed=2)
@@ -138,6 +142,7 @@ def test_loglike_precomputed_cinv_matches_direct():
     ll_precomp = compute_log_likelihood(data, model, C_data_precomputed={'Cinv': Cinv, 'logdet': logdet})
     
     assert np.isclose(ll_direct, ll_precomp, atol=1e-10)
+
 
 def test_invalid_precomputed_dict_raises_error():
     data = np.ones(5)
