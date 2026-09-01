@@ -87,7 +87,7 @@ Cosmological parameter inference for screened modified gravity and vacuum decay 
 
 The software enables reproducible research in alternative gravity and vacuum physics, areas relevant to DESI, Euclid and LSST analyses. By providing a tested likelihood (`likelihood/probabilidade_mu_eff.py`) and emulator interface, it lowers the barrier for cosmologists to test Vainshtein-screened models against data without reimplementing screening formulas. The modular design also serves as a pedagogical tool for graduate courses in cosmological data analysis.
 
-Early adoption includes use in the author's MCMC analyses of void depleção do vácuo, with potential impact on constraints for modified gravity theories.
+Early adoption includes use in the author's MCMC analyses of void deplecao do vacuo, with potential impact on constraints for modified gravity theories.
 
 ## AI usage disclosure
 
