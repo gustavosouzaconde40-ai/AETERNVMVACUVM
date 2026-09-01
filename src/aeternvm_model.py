@@ -44,9 +44,6 @@ def solve_Psi0_from_I(I, Psi_upper_guess=None, n_grid=400):
     return float(Psi0), (Psi_star, fmax)
 
 
-def mu_eff_of_I(I, Psi0=None):
-    # Placeholder implementation; original file had trimmed content
-    if Psi0 is None:
-        Psi0, _ = solve_Psi0_from_I(I)
-    arg = 1.0 + Psi0
-    return arg
+def mu_eff_of_I(I, mu0=0.8, gamma=1.0, Lambda0=0.0, alpha=2.0, beta=1.0):
+    arg = 1.0 + beta * max(I, 0.0)
+    return mu0 + gamma * (Lambda0 + alpha * math.log(arg))
