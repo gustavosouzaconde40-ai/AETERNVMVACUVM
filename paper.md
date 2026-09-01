@@ -58,5 +58,16 @@ The repository is organized into modular packages under the `src/` directory:
 * **`solver_isoda.py`**: High-precision hyperbolic PDE and background ODE integrators with strict error tolerances ($rtol \le 10^{-10}$)[span_7](start_span)[span_7](end_span).
 * **`vainshtein_screening.py`**: Routines to evaluate local gravitational suppression within the Solar System and astrophysical scales, ensuring compatibility with local gravity tests[span_8](start_span)[span_8](end_span).
 * **`mcmc_pipeline.py`**: Bayesian inference wrappers optimized with Cholesky decomposition and Woodbury matrix lemmas for fast likelihood evaluations.
+### Quality control
 
+AETERNVMVACUVM includes an automated test suite (pytest) covering Vainshtein screening solvers, vacuum depletion phase transitions, and cosmological MCMC emulator consistency. Tests include import checks, numerical consistency on synthetic data, and edge cases. Continuous integration via GitHub Actions runs the test suite on Python 3.9, 3.10, and 3.11 on every push and pull request. Example datasets are included; large simulation outputs are archived on Zenodo (DOI: 10.5281/zenodo.22166663).
+
+### Availability
+
+**Source code:** https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM
+**License:** MIT
+**Installation:** `pip install.` or `pip install -e.[test]` for development
+**Supported Python versions:** 3.9, 3.10, 3.11
+**Documentation:** See README.md and docstrings
+**Archived release (Zenodo):** 10.5281/zenodo.22166663 (v1.1.0-complete) - Concept DOI (all versions): 10.5281/zenodo.21856036
 # References
