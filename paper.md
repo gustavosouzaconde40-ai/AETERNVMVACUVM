@@ -71,3 +71,25 @@ AETERNVMVACUVM includes an automated test suite (pytest) covering Vainshtein scr
 **Documentation:** See README.md and docstrings
 **Archived release (Zenodo):** 10.5281/zenodo.22166663 (v1.1.0-complete) - Concept DOI (all versions): 10.5281/zenodo.21856036
 # References
+## State of the field
+
+Cosmological parameter inference for screened modified gravity and vacuum decay models typically relies on computationally expensive Boltzmann solvers (e.g., CLASS, CAMB) and N-body simulations. Existing Python tools for Vainshtein screening focus on specific models (e.g., `hi_class`, `MG-CAMB`) but lack a unified framework for vacuum depletion physics and fast likelihood evaluation. MCMC sampling in these high-dimensional spaces remains prohibitive without emulation.
+
+`AETERNVM VACUVM` bridges this gap by providing a computational structure that integrates (i) analytical models for vacuum depletion and Vainshtein screening, (ii) a likelihood module with `mu_eff` corrections, and (iii) cosmological emulators trained to accelerate MCMC. Compared to existing emulators that target only $\Lambda$CDM or $w_0w_a$CDM, this package is designed for screening mechanisms where the effective gravitational coupling $\mu_{\rm eff}(k,a)$ is scale and time dependent.
+
+## Research impact statement
+
+The software enables reproducible research in alternative gravity and vacuum physics, areas relevant to DESI, Euclid and LSST analyses. By providing a tested likelihood (`likelihood/probabilidade_mu_eff.py`) and emulator interface, it lowers the barrier for cosmologists to test Vainshtein-screened models against data without reimplementing screening formulas. The modular design also serves as a pedagogical tool for graduate courses in cosmological data analysis.
+
+Early adoption includes use in the author's MCMC analyses of void depleção do vácuo, with potential impact on constraints for modified gravity theories.
+
+## AI usage disclosure
+
+During the preparation of this work, generative AI tools (GitHub Copilot and ChatGPT) were used for:
+
+- Correction of Python indentation and flake8 E999 errors
+- Drafting of docstrings and boilerplate for CI workflow `.github/workflows/python-package.yml`
+- Suggestions for structuring this paper to meet JOSS requirements
+
+All scientific content, derivations of the vacuum depletion model, Vainshtein screening implementation, and validation tests were authored and verified by the human author. No AI was used to generate scientific results or figures.
+
