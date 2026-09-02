@@ -9,7 +9,7 @@ tags:
     - Vainshtein screening
 authors:
     - name: Gustavo Alves Condé
-    orcid: 0009-0000-0000-0000
+    orcid: 0009-0003-8264-7907
     affiliation: 1
 affiliations:
     - name: Independent Researcher, Baixo Guandu, ES, Brazil
@@ -58,7 +58,7 @@ $$\ddot{\chi} + 3H\dot{\chi} + V'(\chi) = 0$$
 # Software Design and Implementation
 
 The repository is organized into modular packages under the `src/` directory:
-* **`solver_isoda.py`**: High-precision hyperbolic PDE and background ODE integrators with strict error tolerances ($rtol \le 10^{-10}$).
+* **`solver_lsoda.py`**: High-precision hyperbolic PDE and background ODE integrators with strict error tolerances ($rtol \le 10^{-10}$).
 * **`vainshtein_screening.py`**: Routines to evaluate local gravitational suppression within the Solar System and astrophysical scales, ensuring compatibility with local gravity tests.
 * **`mcmc_pipeline.py`**: Bayesian inference wrappers optimized with Cholesky decomposition and Woodbury matrix lemmas for fast likelihood evaluations.
 
