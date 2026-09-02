@@ -1,3 +1,4 @@
+---
 title: 'Aeternvm Vacuvm: A Computational Framework for Vacuum Depletion Physics, Vainshtein Screening, and Cosmological MCMC Emulators'
 tags: [Python, cosmology, vacuum depletion, modified gravity, MCMC emulators, Vainshtein screening]
 authors:
@@ -79,4 +80,3 @@ Drafting of docstrings and boilerplate for CI workflow .github/workflows/python-
 Suggestions for structuring this paper to meet JOSS requirements
 
 All scientific content, derivations of the vacuum depletion model, Vainshtein screening implementation, and validation tests were authored and verified by the human author. No AI was used to generate scientific results or figures.
-
