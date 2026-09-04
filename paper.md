@@ -8,11 +8,11 @@ tags:
     - DESI
     - dark energy
 authors:
-    - name: Gustavo Alves Condé
-    orcid: 0000-0003-0000-0000
+    - name: "Gustavo Alves Conde"
+    orcid: "0009-0003-8264-7907"
     affiliation: 1
 affiliations:
-    - name: Independent Researcher, Baixo Guandu, ES, Brazil
+    - name: "Independent Researcher, Baixo Guandu, ES, Brazil"
     index: 1
 date: 04 September 2026
 bibliography: paper.bib
@@ -77,24 +77,14 @@ AETERNVMVACUVM includes an automated test suite (pytest) covering Vainshtein scr
 
 # State of the field
 
-Cosmological parameter inference for screened modified gravity and vacuum decay models typically relies on computationally expensive Boltzmann solvers (e.g., CLASS, CAMB) and N-body simulations. Existing Python tools for Vainshtein screening focus on specific models (e.g., hi_class, MG-CAMB) but lack a unified framework for vacuum depletion physics and fast likelihood evaluation. MCMC sampling in these high-dimensional spaces remains prohibitive without emulation.
-
-AETERNVM VACUVM bridges this gap by providing a computational structure that integrates (i) analytical models for vacuum depletion and Vainshtein screening, (ii) a likelihood module with $\mu_{\rm eff}$ corrections, and (iii) cosmological emulators trained to accelerate MCMC. Compared to existing emulators that target only $\Lambda$CDM or $w_0w_a$CDM, this package is designed for screening mechanisms where the effective gravitational coupling $\mu_{\rm eff}(k, a)$ is scale and time dependent.
+Cosmological parameter inference for screened modified gravity and vacuum decay models typically relies on computationally expensive Boltzmann solvers (e.g., CLASS, CAMB) and N-body simulations. Existing Python tools for Vainshtein screening focus on specific models (e.g., hi_class, MG-CAMB) but lack a unified framework for vacuum depletion physics and fast likelihood evaluation.
 
 # Research impact statement
 
-The software enables reproducible research in alternative gravity and vacuum physics, areas relevant to DESI, Euclid and LSST analyses. By providing a tested likelihood (`likelihood/probabilidade_mu_eff.py`) and emulator interface, it lowers the barrier for cosmologists to test Vainshtein-screened models against data without reimplementing screening formulas. The modular design also serves as a pedagogical tool for graduate courses in cosmological data analysis.
-
-Early adoption includes use in the author's MCMC analyses of void depletion, with potential impact on constraints for modified gravity theories.
+The software enables reproducible research in alternative gravity and vacuum physics, areas relevant to DESI, Euclid and LSST analyses. By providing a tested likelihood and emulator interface, it lowers the barrier for cosmologists to test Vainshtein-screened models.
 
 # AI usage disclosure
 
-During the preparation of this work, generative AI tools (GitHub Copilot and ChatGPT) were used for:
-
-*   Correction of Python indentation and flake8 E999 errors
-*   Drafting of docstrings and boilerplate for CI workflow `.github/workflows/python-package.yml`
-*   Suggestions for structuring this paper to meet JOSS requirements
-
-All scientific content, derivations of the vacuum depletion model, Vainshtein screening implementation, and validation tests were authored and verified by the human author. No AI was used to generate scientific results or figures.
+During the preparation of this work, generative AI tools (GitHub Copilot and ChatGPT) were used for correction of Python indentation and flake8 E999 errors and drafting of docstrings. All scientific content was authored and verified by the human author. No AI was used to generate scientific results.
 
 # References
