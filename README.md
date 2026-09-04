@@ -6,10 +6,6 @@
 [[DOI v1.1.0-completo](https://zenodo.org/badge/DOI/10.5281/zenodo.22166663.svg)](https://doi.org/10.5281/zenodo.22166663)
 [[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### ☕ APOIE A PESQUISA - PIX
-**PIX (CPF): 022.818.517-37**
-**PIX (Celular): 27 99817 4350**
-
 ### CADEIA COMPLETA AETERNVM VACVVM - 4 DOIs ATIVOS ✅
 
 **DOI 1 - Régua de Condé:** [10.5281/zenodo.22096687](https://doi.org/10.5281/zenodo.22096687)
