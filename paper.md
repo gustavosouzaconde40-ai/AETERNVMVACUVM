@@ -2,7 +2,7 @@
 title: 'Aeternvm Vacuvm: A Computational Framework for Vacuum Depletion Physics, Vainshtein Screening, and Cosmological MCMC Emulators'
 tags: [Python, cosmology, vacuum depletion, modified gravity, MCMC emulators, Vainshtein screening]
 authors:
-- name: Gustavo Alves Condé
+- name: Gustavo Alves CondÃ©
   orcid: 0009-0003-8264-7907
   affiliation: 1
 affiliations:
