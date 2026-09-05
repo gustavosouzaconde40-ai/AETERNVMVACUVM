@@ -1,99 +1,71 @@
-title: 'AETERNVMVACUVM: A Computational Framework...'
-tags:
-    - Python
-    - cosmology
-    - vacuum depletion
-    - modified gravity
-    - MCMC emulators
-    - Vainshtein screening
-authors:
-    - name: Gustavo Alves Condé
-    orcid: 0009-0000-0000-0000
-    affiliation: 1
-affiliations:
-    - name: Independent Researcher, Baixo Guandu, ES, Brazil
-    index: 1
-date: 26 August 2026
-bibliography: paper.bib
----
+# AETERNVMVACUVM Framework
 
-# Summary
+Open-Source Computational Framework for Late-Time Vacuum Phase Transitions, Vainshtein Screening, and Cosmological MCMC Emulators.
 
-**Aeternvm Vacuvm** is an open-source computational framework designed to solve, emulate, and test modified gravity theories, late-time vacuum phase transitions, and Vainshtein screening mechanisms against high-precision cosmological datasets (such as Planck CMB, DESI Y1/Y3, and Pantheon+ BAO). Traditional cosmological pipelines often lack unified, accessible tools to couple non-linear scalar-tensor dynamics with fast Bayesian inference. *Aeternvm Vacuvm* bridges this gap by providing high-precision numerical solvers for hyperbolic field equations alongside integrated Gaussian Process (GP) emulators and MCMC pipelines.
+[![DOI Concept](https://zenodo.org/badge/DOI/10.5281/zenodo.21856036.svg)](https://doi.org/10.5281/zenodo.21856036)
+[![DOI v1.1.0](https://zenodo.org/badge/DOI/10.5281/zenodo.22166663.svg)](https://doi.org/10.5281/zenodo.22166663)
+[![DOI v5.0 5-PROVAS](https://zenodo.org/badge/DOI/10.5281/zenodo.22347657.svg)](https://doi.org/10.5281/zenodo.22347657)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Statement of Need
+## CADEIA COMPLETA AETERNVM VACVVM - 5 DOIs ATIVOS ✅
 
-In modern precision cosmology, testing dynamical dark energy models and vacuum depletion scenarios requires heavy numerical computations, involving the simultaneous solution of background evolution, perturbation equations, and local screening effects. Existing software libraries are either restricted to standard $\Lambda\text{CDM}$ or fragmented across specialized codes that are difficult to couple with modern Bayesian samplers.
+**DOI 1 - Regua de Conde:** [10.5281/zenodo.22096687](https://doi.org/10.5281/zenodo.22096687)
+**DOI 2 - Triangulo de Conde:** [10.5281/zenodo.22164502](https://doi.org/10.5281/zenodo.22164502) + backup [10.5281/zenodo.22165628](https://doi.org/10.5281/zenodo.22165628)
+**DOI 3 - VIEC Mk.IV-C Zbites:** [10.5281/zenodo.22165507](https://doi.org/10.5281/zenodo.22165507)
+**DOI 4 - Framework Completo:** [10.5281/zenodo.22166663](https://doi.org/10.5281/zenodo.22166663) (v1.1.0-complete)
+**DOI 5 - 5 PROVAS v5.0 FINAL:** [10.5281/zenodo.22347657](https://doi.org/10.5281/zenodo.22347657) - Z0=376.73 Ohm=1, k=8.45 Ohm, S=280, N=22, PD=0.556, Delta=6.46
+**DOI Pai (todas as versoes):** [10.5281/zenodo.21856036](https://doi.org/10.5281/zenodo.21856036)
 
-*Aeternvm Vacuvm* provides researchers and independent scientists with a self-contained, modular Python engine to:
-1. Solve non-linear scalar field evolution and background dynamics deterministically.
-2. Evaluate local gravitational suppression via Vainshtein screening mechanics.
-3. Accelerate cosmological parameter inference using optimized Gaussian Process emulators integrated with frameworks like Cobaya and EFTCAMB.
+## Visao geral
 
-# Mathematical and Physical Architecture
+AETERNVMVACUVM e um motor de fisica de codigo aberto e um conjunto de ferramentas de emulacao cosmologica projetado para testar teorias de campos escalares-tensoriais de acoplamento nao minimo, mecanismos de blindagem de Vainshtein e transicoes de fase do vacuo em tempos tardios (z em [0.2, 0.8]) contra observacoes cosmologicas de precisao.
 
-The framework is built upon rigorous theoretical foundations linking laboratory electromagnetism to late-time cosmic acceleration.
+Ele integra diretamente solucionadores de sistemas hiperbolicos com pipelines de inferencia Bayesiana usando emuladores EFTCAMB, Cobaya e de Processo Gaussiano (GP).
 
-## Vacuum Depletion Potential and Impedance Coupling
-The depletion field $\chi$ is governed by a potential of the form:
+## Arcabouco teorico v5.0 - Z0 como unidade
 
-$$V(\chi) = V_0 \left[1 - \exp\left(-\frac{\lambda \chi}{M_{\rm Pl}}\right)\right]^2$$
+### Potential de Deplecao do Vacuo
 
-Crucially, the energy scale $V_0$ is not treated as a free tuning parameter. Instead, it is analytically constrained by the vacuum impedance $Z_0 = \sqrt{\mu_0 / \epsilon_0} \approx 376.73\,\Omega$:
+$$V(\chi) = V_0 \left[1 - \exp\left(-\frac{\lambda \chi}{M_{Pl}}\right)\right]^2$$
 
-$$V_0 = \frac{\hbar}{2 Z_0 c \ell_P^3} \left(1 - e^{-S_{\rm inst}}\right)$$
+$$V_0 = \frac{\hbar}{2 Z_0 c \ell_P^3} (1 - e^{-S_{inst}})$$
 
-where $S_{\rm inst} \approx 280$ represents a non-perturbative instanton-like action. This yields $V_0 \sim 10^{-47}\,\text{GeV}^4$, naturally matching the observed dark energy density scale without fine-tuning.
+onde $S_{inst} \approx 280$ representa acao instanton nao-perturbativa. Isso gera $V_0 \sim 10^{-47} GeV^4$, batendo naturalmente com a densidade de energia escura observada sem fine-tuning.
 
-## Modified Friedmann and Field Equations
-The background expansion dynamics including matter and the depletion field are governed by the modified Friedmann equations:
+### 5 Provas Convergentes (VACUO-ATIVO-5-PROVAS v5.0)
 
-$$H^2 = \frac{8\pi G}{3}\left( \rho_m + \frac{1}{2}\dot{\chi}^2 + V(\chi) \right), \quad \dot{H} = -4\pi G \left( \rho_m + \dot{\chi}^2 \right)$$
+1. **JWST CEERS z>10:** lambda/M_Pl ~ (Z0/Z_Pl)^n e^-S/4 - consistente
+2. **IXPE Magnetar 1E 1547.0-5408 15 bins:** `rvm_params_1e1547_15bins.csv` - PD=0.556 chi2=18.12/14 Delta=6.46 LIMITE forecast 23.0@500h - [Codigo AV_likelihood.py](https://github.com/gustavosouzaconde40-ai/VACUO-ATIVO-5-PROVAS/blob/main/probabilidade/AV_likelihood.py)
+3. **LZ 2024:** xi ~ Z0 - limite
+4. **Z0 como unidade:** k=8.45 derivado
+5. **Forecast falsificavel:** Se 500h IXPE nao der Delta>9, Z0 refutado
 
-The Klein-Gordon equation describing the evolution of $\chi$ is solved numerically via high-precision adaptive ODE/PDE routines (such as LSODA and DOP853):
+**Status:** Ciclo metodologico fechado, comprovacao aberta - 05-09-2026 - ORCID 0009-0003-8264-7907
 
-$$\ddot{\chi} + 3H\dot{\chi} + V'(\chi) = 0$$
+## Modulos-chave e arquitetura teorica
 
-# Software Design and Implementation
+### 1. Dinamica do Vacuo e Acoplamento Nao Minimo
 
-The repository is organized into modular packages under the `src/` directory:
-* **`solver_isoda.py`**: High-precision hyperbolic PDE and background ODE integrators with strict error tolerances ($rtol \le 10^{-10}$).
-* **`vainshtein_screening.py`**: Routines to evaluate local gravitational suppression within the Solar System and astrophysical scales, ensuring compatibility with local gravity tests.
-* **`mcmc_pipeline.py`**: Bayesian inference wrappers optimized with Cholesky decomposition and Woodbury matrix lemmas for fast likelihood evaluations.
+Resolve a equacao do campo hiperbolico com acoplamento de curvatura nao minima:
 
-### Quality control
+$$\Box \varphi + dV/d\varphi - \xi R \varphi = 0$$
 
-AETERNVMVACUVM includes an automated test suite (pytest) covering Vainshtein screening solvers, vacuum depletion phase transitions, and cosmological MCMC emulator consistency. Tests include import checks, numerical consistency on synthetic data, and edge cases. Continuous integration via GitHub Actions runs the test suite on Python 3.9, 3.10, and 3.11 on every push and pull request. Example datasets are included; large simulation outputs are archived on Zenodo (DOI: 10.5281/zenodo.22166663).
+usando integradores ODE/PDE adaptativos de alta precisao (LSODA / DOP853) com tolerancias ate rtol = 1e-10.
 
-### Availability
+### 2. Mecanismo de triagem de Vainshtein
 
-**Source code:** https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM
-**License:** MIT
-**Installation:** `pip install .` or `pip install -e .[test]` for development
-**Supported Python versions:** 3.9, 3.10, 3.11
-**Documentation:** See README.md and docstrings
-**Archived release (Zenodo):** 10.5281/zenodo.22166663 (v1.1.0-complete) - Concept DOI (all versions): 10.5281/zenodo.21856036
+Calcula a supressao gravitacional efetiva dentro do Sistema Solar e em escalas astrofisicas locais para satisfazer limites rigorosos de gravidade local.
 
-# References
+### 3. Pipeline Cosmologico de MCMC e Inferencia
 
-## State of the field
+- **Conjuntos de dados:** Suporte integrado para dados Planck CMB, DESI Y1/Y3, Pantheon+ e BAO.
+- **Emulador Bayesiano:** Aceleracao de emuladores de Processos Gaussianos para reconstrucoes de equacao de estado w(z) (w0 = -0,712).
+- **Tensao de Hubble:** preve transicoes tardias com resolucao da tensao H0 e 3-5% f8 supressao em vazios cosmicos.
 
-Cosmological parameter inference for screened modified gravity and vacuum decay models typically relies on computationally expensive Boltzmann solvers (e.g., CLASS, CAMB) and N-body simulations. Existing Python tools for Vainshtein screening focus on specific models (e.g., `hi_class`, `MG-CAMB`) but lack a unified framework for vacuum depletion physics and fast likelihood evaluation. MCMC sampling in these high-dimensional spaces remains prohibitive without emulation.
+## Estrutura do Repositorio
+## Instalacao
 
-`AETERNVM VACUVM` bridges this gap by providing a computational structure that integrates (i) analytical models for vacuum depletion and Vainshtein screening, (ii) a likelihood module with `mu_eff` corrections, and (iii) cosmological emulators trained to accelerate MCMC. Compared to existing emulators that target only $\Lambda$CDM or $w_0w_a$CDM, this package is designed for screening mechanisms where the effective gravitational coupling $\mu_{\rm eff}(k,a)$ is scale and time dependent.
-
-## Research impact statement
-
-The software enables reproducible research in alternative gravity and vacuum physics, areas relevant to DESI, Euclid and LSST analyses. By providing a tested likelihood (`likelihood/probabilidade_mu_eff.py`) and emulator interface, it lowers the barrier for cosmologists to test Vainshtein-screened models against data without reimplementing screening formulas. The modular design also serves as a pedagogical tool for graduate courses in cosmological data analysis.
-
-Early adoption includes use in the author's MCMC analyses of void deplecao do vacuo, with potential impact on constraints for modified gravity theories.
-
-## AI usage disclosure
-
-During the preparation of this work, generative AI tools (GitHub Copilot and ChatGPT) were used for:
-
-- Correction of Python indentation and flake8 E999 errors
-- Drafting of docstrings and boilerplate for CI workflow `.github/workflows/python-package.yml`
-- Suggestions for structuring this paper to meet JOSS requirements
-
-All scientific content, derivations of the vacuum depletion model, Vainshtein screening implementation, and validation tests were authored and verified by the human author. No AI was used to generate scientific results or figures.
+```bash
+pip install -e.
+pip install -e.[test] # para desenvolvimento
+pytest
