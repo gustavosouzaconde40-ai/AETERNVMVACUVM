@@ -1,5 +1,4 @@
----
-title: 'Aeternvm Vacuvm: A Computational Framework for Vacuum Depletion Physics, Vainshtein Screening, and Cosmological MCMC Emulators'
+title: 'AETERNVMVACUVM: A Computational Framework...'
 tags:
     - Python
     - cosmology
