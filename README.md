@@ -69,6 +69,6 @@ Calcula a supressao gravitacional efetiva dentro do Sistema Solar e em escalas a
 pip install -e.
 pip install -e.[test] # para desenvolvimento
 pytest
-### 3. Pipeline Cosmologico de MCMC e Inferencia
+
 
 
