@@ -69,7 +69,7 @@ Calcula a supressao gravitacional efetiva dentro do Sistema Solar e em escalas a
 pip install -e.
 pip install -e.[test] # para desenvolvimento
 pytest
-
+```
 
 ---
 ## V6.5 OMEGA-EXT - 3 Extensões Falsificáveis
@@ -98,4 +98,4 @@ Extensão do Framework v5.0 com 3 novos testes independentes baseados no Livro A
 ```bash
 python src/test_omega_ext.py
 # V6.5 OMEGA-EXT: 3/3 APROVADOS - RELEASE LIBERADA!
-
+```
