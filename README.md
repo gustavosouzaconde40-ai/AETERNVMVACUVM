@@ -7,13 +7,14 @@ Open-Source Computational Framework for Late-Time Vacuum Phase Transitions, Vain
 [![DOI v5.0 5-PROVAS](https://zenodo.org/badge/DOI/10.5281/zenodo.22347657.svg)](https://doi.org/10.5281/zenodo.22347657)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## CADEIA COMPLETA AETERNVM VACVVM - 5 DOIs ATIVOS ✅
+## CADEIA COMPLETA AETERNVM VACVVM - 6 DOIs ATIVOS ✅
 
 **DOI 1 - Regua de Conde:** [10.5281/zenodo.22096687](https://doi.org/10.5281/zenodo.22096687)
 **DOI 2 - Triangulo de Conde:** [10.5281/zenodo.22164502](https://doi.org/10.5281/zenodo.22164502) + backup [10.5281/zenodo.22165628](https://doi.org/10.5281/zenodo.22165628)
 **DOI 3 - VIEC Mk.IV-C Zbites:** [10.5281/zenodo.22165507](https://doi.org/10.5281/zenodo.22165507)
 **DOI 4 - Framework Completo:** [10.5281/zenodo.22166663](https://doi.org/10.5281/zenodo.22166663) (v1.1.0-complete)
-**DOI 5 - 5 PROVAS v5.0 FINAL:** [10.5281/zenodo.22347657](https://doi.org/10.5281/zenodo.22347657) - Z0=376.73 Ohm=1, k=8.45 Ohm, S=280, N=22, PD=0.556, Delta=6.46
+**DOI 5 - 5 PROVAS v5.0 FINAL:** [10.5281/zenodo.22347657](https://doi.org/10.5281/zenodo.22347657) - Z0=376.73 Ohm=1, k=8.45 Ohm, S=280, N=22, PD=0.556, Delta=6.46 
+**DOI 6 - V6.5 OMEGA-EXT - 3 Extensões:** [10.5281/zenodo.22760775](https://doi.org/10.5281/zenodo.22760775) - 17 Provas + 10 Testes T5 Eq103 T6 f_NL T7 Eq105 - 15-09-2026
 **DOI Pai (todas as versoes):** [10.5281/zenodo.21856036](https://doi.org/10.5281/zenodo.21856036)
 
 ## Visao geral
