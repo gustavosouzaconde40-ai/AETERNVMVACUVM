@@ -71,4 +71,31 @@ pip install -e.[test] # para desenvolvimento
 pytest
 
 
+---
+## V6.5 OMEGA-EXT - 3 Extensões Falsificáveis
+
+Extensão do Framework v5.0 com 3 novos testes independentes baseados no Livro AETERNVM VACUVM.
+
+### T5 - Sensores Quânticos Eq103
+- **Local:** `src/sensores_quânticos/test_eq103.py`
+- **Equação:** k=2πZ0/S_inst = 8,45 com Z0=376,73 Ω, S_inst=280
+- **Predição:** Efeito de campo não-mínimo detectável em sensores quânticos
+- **Livro:** Cap. 6 - Acoplamento Não-Mínimo
+
+### T6 - Cosmologia f_NL CMB
+- **Local:** `src/cosmologia/test_fnl.py`
+- **Equação:** f_NL^Omega = 0,02% = erro centroide 1/ln2
+- **Predição:** Non-Gaussianity primordial f_NL = 0,0002 ±5,1 (z<1.0)
+- **Livro:** pag.55 7.3.1 Non-Gaussianity - q95=2,64 q99=3,903
+
+### T7 - Energia do Vácuo Eq105 Λ por Entropia
+- **Local:** `src/energia_do_vácuo/test_eq105.py`
+- **Equação:** Rμν-½Rgμν+Λgμν=8πG<Tμν> pag.52, ρ_Λ ~ exp(-S_inst)
+- **Predição:** S_inst=280 → ρ_Λ=10^-121,6 M_pl^4 ~1e-47 GeV4 sem ajuste fino
+- **Livro:** Cap. 5 - Potencial V(χ)=V0[1-exp(-λχ/M_Pl)]²
+
+### Teste Mestre V6.5
+```bash
+python src/test_omega_ext.py
+# V6.5 OMEGA-EXT: 3/3 APROVADOS - RELEASE LIBERADA!
 
