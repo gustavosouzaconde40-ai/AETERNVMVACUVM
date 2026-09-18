@@ -15,6 +15,7 @@ Open-Source Computational Framework for Late-Time Vacuum Phase Transitions, Vain
 **DOI 4 - Framework Completo:** [10.5281/zenodo.22166663](https://doi.org/10.5281/zenodo.22166663) (v1.1.0-complete)
 **DOI 5 - 5 PROVAS v5.0 FINAL:** [10.5281/zenodo.22347657](https://doi.org/10.5281/zenodo.22347657) - Z0=376.73 Ohm=1, k=8.45 Ohm, S=280, N=22, PD=0.556, Delta=6.46 
 **DOI 6 - V6.5 OMEGA-EXT - 3 Extensões:** [10.5281/zenodo.22760775](https://doi.org/10.5281/zenodo.22760775) - 17 Provas + 10 Testes T5 Eq103 T6 f_NL T7 Eq105 - 15-09-2026
+**DOI 7 - GRB 250314A z=7.33 JWST - 730 Myr - Teste de Constancia Z_0: src/GRB250314A/ - Em submissao Zenodo - Vinculado a DOI 22178237 (Zbites)
 **DOI Pai (todas as versoes):** [10.5281/zenodo.21856036](https://doi.org/10.5281/zenodo.21856036)
 
 ## Visao geral
