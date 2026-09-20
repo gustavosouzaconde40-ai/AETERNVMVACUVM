@@ -2,9 +2,9 @@ name: pytest
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, principal ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, principal ]
 
 jobs:
   test:
@@ -18,8 +18,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requisitos.txt
           pip install pytest
       - name: Run tests
         run: |
-          pytest tests/ -v --ignore=fusao-AV-Omega-v1
+          pytest testes/ -v --ignore=fusao-AV-Omega-v1
