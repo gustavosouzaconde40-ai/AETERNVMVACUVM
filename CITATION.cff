@@ -1,45 +1,56 @@
 cff-version: 1.2.0
-title: "AETERNVMVACUVM: A Computational Framework for Vacuum Depletion Physics, Vainshtein Screening, and Cosmological MCMC Emulators"
-message: "If you use this software, please cite it as below."
+title: "AETERNVMVACUVM: Uma estrutura computacional para física de depleção do vácuo, blindagem de Vainshtein e emuladores cosmológicos de MCMC - V6.7.1 BALA DE PRATA FALSIFICÁVEL"
+message: "Se você usar este software, por favor cite-o usando os metadados deste arquivo."
 type: software
 authors:
-  - family-names: "Condé"
-    given-names: "Gustavo Alves"
-    affiliation: "Independent Researcher, Baixo Guandu, ES, Brazil"
-version: "1.1.0"
-date-released: "2026-08-29"
-doi: 10.5281/zenodo.22166663
+    - given-names: Gustavo Alves
+    family-names: Condé
+    affiliation: "Independent Researcher - Baixo Guandu, ES, Brazil"
+    orcid: "https://orcid.org/0009-0000-0000-0000"
+version: 6.7.1
+date-released: 2026-09-21
+doi: 10.5281/zenodo.22873164
 identifiers:
-  - type: doi
+    - type: doi
     value: 10.5281/zenodo.21856036
-    description: "Concept DOI - all versions"
-  - type: doi
-    value: 10.5281/zenodo.22166663
-    description: "Version v1.1.0-complete"
-  - type: doi
+    description: "Concept DOI - todas as versões"
+    - type: doi
     value: 10.5281/zenodo.22096687
-    description: "Conde Ruler"
-  - type: doi
+    description: "DOI 1 - Régua de Condé"
+    - type: doi
     value: 10.5281/zenodo.22164502
-    description: "Triangulo de Conde"
-  - type: doi
-    value: 10.5281/zenodo.22165628
-    description: "VIEC Mk.IV-C backup"
-  - type: doi
+    description: "DOI 2 - Triângulo de Condé"
+    - type: doi
     value: 10.5281/zenodo.22165507
-    description: "VIEC Mk.IV-C Zbites"
-url: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
+    description: "DOI 3 - VIEC Mk.IV-C Zbites"
+    - type: doi
+    value: 10.5281/zenodo.22166663
+    description: "DOI 4 - Framework Completo v1.1.0-completo"
+    - type: doi
+    value: 10.5281/zenodo.22347657
+    description: "DOI 5 - 5 PROVAS v5.0 FINAL"
+    - type: doi
+    value: 10.5281/zenodo.22760775
+    description: "DOI 6 - V6.5 OMEGA-EXT"
+    - type: doi
+    value: 10.5281/zenodo.22873164
+    description: "DOI 8 - V6.7.1 BALA DE PRATA 10/10 FALSIFICÁVEL - CI VERDE"
+    - type: doi
+    value: 10.5281/zenodo.22866184
+    description: "DOI 7 backup - V6.7 anterior"
 repository-code: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
+url: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
 license: MIT
 keywords:
-  - vacuum depletion
-  - Vainshtein screening
-  - cosmological emulators
-  - MCMC
-  - DESI
-  - Planck
-  - scalar-tensor theories
-  - late-time phase transitions
-  - EFTCAMB
-  - Cobaya
-
+    - vacuum depletion
+    - Vainshtein screening
+    - late-time vacuum
+    - MCMC emulator
+    - DESI
+    - Planck
+    - Fisher information
+    - Wasserstein distance
+    - Fabry-Perot 10GHz
+    - MOND emergent
+    - AETERNVM VACUVM
+    - GRB 250314A
