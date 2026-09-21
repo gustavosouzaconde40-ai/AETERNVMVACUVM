@@ -1,21 +1,10 @@
 cff-version: 1.2.0
-title: "AETERNVMVACUVM V6.7.1 BALA DE PRATA FALSIFICAVEL"
-message: "If you use this software, please cite it using these metadata."
+title: AETERNVMVACUVM
+message: "Please cite this software"
 type: software
 authors:
     - given-names: Gustavo Alves
     family-names: Conde
-    affiliation: "Independent Researcher - Baixo Guandu, ES, Brazil"
 version: 6.7.1
-date-released: 2026-09-21
 doi: 10.5281/zenodo.22873164
-repository-code: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
-url: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
-license: MIT
-keywords:
-    - vacuum depletion
-    - Vainshtein screening
-    - late-time vacuum
-    - MCMC emulator
-    - Fisher information
-    - AETERNVM VACUVM
+date-released: 2026-09-21
