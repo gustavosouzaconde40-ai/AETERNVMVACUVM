@@ -6,7 +6,6 @@ authors:
     - given-names: Gustavo Alves
     family-names: Conde
     affiliation: "Independent Researcher - Baixo Guandu, ES, Brazil"
-    orcid: "https://orcid.org/0009-0000-0000-0000"
 version: 6.7.1
 date-released: 2026-09-21
 doi: 10.5281/zenodo.22873164
@@ -25,7 +24,7 @@ identifiers:
     description: "DOI 3 - VIEC Mk.IV-C Zbites"
     - type: doi
     value: 10.5281/zenodo.22166663
-    description: "DOI 4 - Framework Completo v1.1.0-completo"
+    description: "DOI 4 - Framework Completo"
     - type: doi
     value: 10.5281/zenodo.22347657
     description: "DOI 5 - 5 PROVAS v5.0 FINAL"
@@ -34,7 +33,7 @@ identifiers:
     description: "DOI 6 - V6.5 OMEGA-EXT"
     - type: doi
     value: 10.5281/zenodo.22873164
-    description: "DOI 8 - V6.7.1 BALA DE PRATA 10/10 FALSIFICAVEL - CI VERDE"
+    description: "DOI 8 - V6.7.1 BALA DE PRATA 10/10 FALSIFICAVEL"
     - type: doi
     value: 10.5281/zenodo.22866184
     description: "DOI 7 backup - V6.7 anterior"
@@ -53,4 +52,3 @@ keywords:
     - Fabry-Perot 10GHz
     - MOND emergent
     - AETERNVM VACUVM
-    - GRB 250314A
