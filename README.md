@@ -7,16 +7,19 @@ Open-Source Computational Framework for Late-Time Vacuum Phase Transitions, Vain
 [![DOI v5.0 5-PROVAS](https://zenodo.org/badge/DOI/10.5281/zenodo.22347657.svg)](https://doi.org/10.5281/zenodo.22347657)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## CADEIA COMPLETA AETERNVM VACVVM - 6 DOIs ATIVOS ✅
+### CADEIA COMPLETA AETERNVM VACVVM - 8 DOIs ATIVOS ✅
 
-**DOI 1 - Regua de Conde:** [10.5281/zenodo.22096687](https://doi.org/10.5281/zenodo.22096687)
-**DOI 2 - Triangulo de Conde:** [10.5281/zenodo.22164502](https://doi.org/10.5281/zenodo.22164502) + backup [10.5281/zenodo.22165628](https://doi.org/10.5281/zenodo.22165628)
-**DOI 3 - VIEC Mk.IV-C Zbites:** [10.5281/zenodo.22165507](https://doi.org/10.5281/zenodo.22165507)
-**DOI 4 - Framework Completo:** [10.5281/zenodo.22166663](https://doi.org/10.5281/zenodo.22166663) (v1.1.0-complete)
-**DOI 5 - 5 PROVAS v5.0 FINAL:** [10.5281/zenodo.22347657](https://doi.org/10.5281/zenodo.22347657) - Z0=376.73 Ohm=1, k=8.45 Ohm, S=280, N=22, PD=0.556, Delta=6.46 
-**DOI 6 - V6.5 OMEGA-EXT - 3 Extensões:** [10.5281/zenodo.22760775](https://doi.org/10.5281/zenodo.22760775) - 17 Provas + 10 Testes T5 Eq103 T6 f_NL T7 Eq105 - 15-09-2026
-**DOI 7 - GRB 250314A z=7.33 JWST - 730 Myr - Teste de Constancia Z_0: src/GRB250314A/ - Em submissao Zenodo - Vinculado a DOI 22178237 (Zbites)
-**DOI Pai (todas as versoes):** [10.5281/zenodo.21856036](https://doi.org/10.5281/zenodo.21856036)
+**DOI 1 - Régua de Condé:** 10.5281/zenodo.22096687
+**DOI 2 - Triângulo de Condé:** 10.5281/zenodo.22164502 + backup 10.5281/zenodo.22165628
+**DOI 3 - VIEC Mk.IV-C Zbites:** 10.5281/zenodo.22165507
+**DOI 4 - Framework Completo (v1.1.0-complete):** 10.5281/zenodo.22166663
+**DOI 5 - 5 PROVAS v5.0 FINAL:** 10.5281/zenodo.22347657 - Z0=376,73 Ohm=1, k=8,45 Ohm, S=280, N=22, PD=0,556, Delta=6,46
+**DOI 6 - V6.5 OMEGA-EXT - 3 Extensões:** 10.5281/zenodo.22760775 - 17 Provas + 10 Testes T5 Eq103 T6 f_NL T7 Eq105 - 15-09-2026
+**DOI 7 - GRB 250314A z=7.33 JWST - 730 Myr - Teste de Constância Z_0:** src/GRB250314A/ - Em submissão Zenodo - Vinculado a DOI 22178237 (Zbites)
+**DOI 8 - V6.7.1 BALA DE PRATA - 10/10 FALSIFICÁVEL - CI VERDE:** 10.5281/zenodo.22873164 - Fusão AV-ΩMEGA v1 - kernels 10/10 - Tabela canônica λ2==4*λ1 π² vs 4π² - 01 Wasserstein W1<1e-6 - 02 Fisher I_inf=0,3606 margem 99,08% Vainshtein preservado - 03 w(z) transição tardia z∈[0,2,0,8] - 04 ρ*=π²=9,8696 - 05 a0=cH0/2π≈1,2e-10 - 06 Fabry-Pérot 10GHz HCN 0,92 vs Prim 2,95 relação 5,75x - 07 Planck Lensing diff 0,22% <5% - Local: fusao-AV-Omega-v1/kernels/ - Teste: python fusao-AV-Omega-v1/kernels/test_v67_master.py
+
+**DOI Pai (todas as versões):** 10.5281/zenodo.21856036
+**DOI Anterior V6.7 (backup):** 10.5281/zenodo.22866184
 
 ## Visao geral
 
