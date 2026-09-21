@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-title: "AETERNVMVACUVM: Uma estrutura computacional para fisica de deplecao do vacuo, blindagem de Vainshtein e emuladores cosmologicos de MCMC - V6.7.1 BALA DE PRATA FALSIFICAVEL"
-message: "Se voce usar este software, por favor cite-o usando os metadados deste arquivo."
+title: "AETERNVMVACUVM V6.7.1 BALA DE PRATA FALSIFICAVEL"
+message: "If you use this software, please cite it using these metadata."
 type: software
 authors:
     - given-names: Gustavo Alves
@@ -9,34 +9,6 @@ authors:
 version: 6.7.1
 date-released: 2026-09-21
 doi: 10.5281/zenodo.22873164
-identifiers:
-    - type: doi
-    value: 10.5281/zenodo.21856036
-    description: "Concept DOI - todas as versoes"
-    - type: doi
-    value: 10.5281/zenodo.22096687
-    description: "DOI 1 - Regua de Conde"
-    - type: doi
-    value: 10.5281/zenodo.22164502
-    description: "DOI 2 - Triangulo de Conde"
-    - type: doi
-    value: 10.5281/zenodo.22165507
-    description: "DOI 3 - VIEC Mk.IV-C Zbites"
-    - type: doi
-    value: 10.5281/zenodo.22166663
-    description: "DOI 4 - Framework Completo"
-    - type: doi
-    value: 10.5281/zenodo.22347657
-    description: "DOI 5 - 5 PROVAS v5.0 FINAL"
-    - type: doi
-    value: 10.5281/zenodo.22760775
-    description: "DOI 6 - V6.5 OMEGA-EXT"
-    - type: doi
-    value: 10.5281/zenodo.22873164
-    description: "DOI 8 - V6.7.1 BALA DE PRATA 10/10 FALSIFICAVEL"
-    - type: doi
-    value: 10.5281/zenodo.22866184
-    description: "DOI 7 backup - V6.7 anterior"
 repository-code: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
 url: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
 license: MIT
@@ -45,10 +17,5 @@ keywords:
     - Vainshtein screening
     - late-time vacuum
     - MCMC emulator
-    - DESI
-    - Planck
     - Fisher information
-    - Wasserstein distance
-    - Fabry-Perot 10GHz
-    - MOND emergent
     - AETERNVM VACUVM
