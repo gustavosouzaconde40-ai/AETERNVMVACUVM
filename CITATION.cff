@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-title: "AETERNVMVACUVM: Uma estrutura computacional para física de depleção do vácuo, blindagem de Vainshtein e emuladores cosmológicos de MCMC - V6.7.1 BALA DE PRATA FALSIFICÁVEL"
-message: "Se você usar este software, por favor cite-o usando os metadados deste arquivo."
+title: "AETERNVMVACUVM: Uma estrutura computacional para fisica de deplecao do vacuo, blindagem de Vainshtein e emuladores cosmologicos de MCMC - V6.7.1 BALA DE PRATA FALSIFICAVEL"
+message: "Se voce usar este software, por favor cite-o usando os metadados deste arquivo."
 type: software
 authors:
     - given-names: Gustavo Alves
-    family-names: Condé
+    family-names: Conde
     affiliation: "Independent Researcher - Baixo Guandu, ES, Brazil"
     orcid: "https://orcid.org/0009-0000-0000-0000"
 version: 6.7.1
@@ -13,13 +13,13 @@ doi: 10.5281/zenodo.22873164
 identifiers:
     - type: doi
     value: 10.5281/zenodo.21856036
-    description: "Concept DOI - todas as versões"
+    description: "Concept DOI - todas as versoes"
     - type: doi
     value: 10.5281/zenodo.22096687
-    description: "DOI 1 - Régua de Condé"
+    description: "DOI 1 - Regua de Conde"
     - type: doi
     value: 10.5281/zenodo.22164502
-    description: "DOI 2 - Triângulo de Condé"
+    description: "DOI 2 - Triangulo de Conde"
     - type: doi
     value: 10.5281/zenodo.22165507
     description: "DOI 3 - VIEC Mk.IV-C Zbites"
@@ -34,7 +34,7 @@ identifiers:
     description: "DOI 6 - V6.5 OMEGA-EXT"
     - type: doi
     value: 10.5281/zenodo.22873164
-    description: "DOI 8 - V6.7.1 BALA DE PRATA 10/10 FALSIFICÁVEL - CI VERDE"
+    description: "DOI 8 - V6.7.1 BALA DE PRATA 10/10 FALSIFICAVEL - CI VERDE"
     - type: doi
     value: 10.5281/zenodo.22866184
     description: "DOI 7 backup - V6.7 anterior"
