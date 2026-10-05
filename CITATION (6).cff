@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+title: "AETERNVMVACUVM Framework - Late-Time Vacuum Phase Transitions, Vainshtein Screening, Cosmological MCMC - 9 DOIs ATIVOS - Inclui GRB 220101A Cavidade Depleção"
+message: "Cite usando DOI Pai 10.5281/zenodo.21856036. Este CITATION.cff contém cadeia completa 9 DOIs."
+type: software
+authors:
+  - family-names: "Conde"
+    given-names: "Gustavo Alves"
+    orcid: "https://orcid.org/0009-0003-8264-7907"
+    affiliation: "Pesquisador Independente - Baixo Guandu - ES - Brasil"
+
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21856036
+    description: "DOI Pai (todas as versões) - Framework Mãe"
+  - type: doi
+    value: 10.5281/zenodo.22096687
+    description: "DOI 1 - Régua de Condé"
+  - type: doi
+    value: 10.5281/zenodo.22164502
+    description: "DOI 2 - Triângulo de Condé"
+  - type: doi
+    value: 10.5281/zenodo.22165628
+    description: "DOI 2 backup - Triângulo de Condé backup"
+  - type: doi
+    value: 10.5281/zenodo.22165507
+    description: "DOI 3 - VIEC Mk.IV-C Zbites"
+  - type: doi
+    value: 10.5281/zenodo.22166663
+    description: "DOI 4 - Framework Completo v1.1.0-complete"
+  - type: doi
+    value: 10.5281/zenodo.22347657
+    description: "DOI 5 - 5 PROVAS v5.0 FINAL - Z0=376,73 Ohm=1, k=8,45 Ohm, S=280, N=22, PD=0,556, Delta=6,46"
+  - type: doi
+    value: 10.5281/zenodo.22760775
+    description: "DOI 6 - V6.5 OMEGA-EXT - 3 Extensões - 17 Provas + 10 Testes T5"
+  - type: doi
+    value: 10.5281/zenodo.22178237
+    description: "DOI 7 - GRB 250314A z=7.33 JWST 730 Myr Teste Constancia Z_0 src/GRB250314A - Protocolo Zbites UHV bancada diamante 5um - Em submissao Zenodo vinculado"
+  - type: doi
+    value: 10.5281/zenodo.22873164
+    description: "DOI 8 - V6.7.1 BALA DE PRATA - 10/10 FALSIFICÁVEL - CI VERDE - fusao-AV-Omega-v1 - W1<1e-6 Fisher 0,3606 margem 99,08% Vainshtein preservado w(z) z[0,2,0,8] rho=pi²=9,8696 a0=cH0/2pi=1,2e-10 Fabry-Perot 10GHz HCN 0,92 vs Prim 2,95 relacao 5,75x Planck Lensing diff 0,22% <5%"
+  - type: doi
+    value: 10.5281/zenodo.22866184
+    description: "DOI 8 backup - V6.7 Anterior (backup) - 22866184"
+  - type: doi
+    value: 10.5281/zenodo.22821262
+    description: "DOI 9 - GRB 220101A z=4.61 4e54 erg - Prova Cavidade/Estrada Depleção - E entra = E sai + E perdas + E depletada - src/GRB220101A - arXiv:2608.20829 arXiv:2602.04660"
+
+repository-code: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
+url: "https://github.com/gustavosouzaconde40-ai/AETERNVMVACUVM"
+abstract: "AETERNVMVACUVM motor de fisica codigo aberto para testar teorias de campos escalares-tensoriais, mecanismos de blindagem de Vainshtein e transicoes de fase do vacuo em tempos tardios z[0.2,0.8]. Equacao fundamental: E entra = E sai + E perdas + E depletada. Prova cavidade GRB 220101A z=4.61 densidade <1e-4 jato 0.4° decaimento -2.99 como estrada de depleção vinculada a LHAASO 3.73 PeV e Z0=376.73 Ohm constante desde GRB 250314A z=7.33."
+keywords:
+  - "AETERNVM VACUVM"
+  - "E depletada"
+  - "vacuum depletion"
+  - "GRB 220101A"
+  - "GRB 250314A"
+  - "Z0 376.73"
+  - "LHAASO 3.73 PeV"
+  - "NADC 101902"
+  - "Baixo Guandu"
+license: MIT
+version: "v6.8.0-DOI9-GRB220101A"
+date-released: "2026-10-05"
