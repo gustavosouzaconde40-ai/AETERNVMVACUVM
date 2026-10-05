@@ -17,7 +17,7 @@ Open-Source Computational Framework for Late-Time Vacuum Phase Transitions, Vain
 **DOI 6 - V6.5 OMEGA-EXT - 3 Extensões:** 10.5281/zenodo.22760775 - 17 Provas + 10 Testes T5 Eq103 T6 f_NL T7 Eq105 - 15-09-2026
 **DOI 7 - GRB 250314A z=7.33 JWST - 730 Myr - Teste de Constância Z_0:** src/GRB250314A/ - Em submissão Zenodo - Vinculado a DOI 22178237 (Zbites)
 **DOI 8 - V6.7.1 BALA DE PRATA - 10/10 FALSIFICÁVEL - CI VERDE:** 10.5281/zenodo.22873164 - Fusão AV-ΩMEGA v1 - kernels 10/10 - Tabela canônica λ2==4*λ1 π² vs 4π² - 01 Wasserstein W1<1e-6 - 02 Fisher I_inf=0,3606 margem 99,08% Vainshtein preservado - 03 w(z) transição tardia z∈[0,2,0,8] - 04 ρ*=π²=9,8696 - 05 a0=cH0/2π≈1,2e-10 - 06 Fabry-Pérot 10GHz HCN 0,92 vs Prim 2,95 relação 5,75x - 07 Planck Lensing diff 0,22% <5% - Local: fusao-AV-Omega-v1/kernels/ - Teste: python fusao-AV-Omega-v1/kernels/test_v67_master.py
-
+**DOI 9 - GRB 220101A z=4.61 12bi anos 4e54 erg - Prova de Cavidade/Estrada de Depleção Aeternvm - E depletada - src/GRB220101A/ - Papers arXiv:2608.20829 e 2602.04660 - Vinculado a DOI 22178237 (Zbites) e NADC 101902
 **DOI Pai (todas as versões):** 10.5281/zenodo.21856036
 **DOI Anterior V6.7 (backup):** 10.5281/zenodo.22866184
 
